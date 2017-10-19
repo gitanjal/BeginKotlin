@@ -2,4 +2,6 @@
     <string name="app_name">BeginKotlin</string>
     <string name="change_text">Change Text</string>
     <string name="hello_world">Hello World</string>
+    <string name="load_activity_b">Load Activity B</string>
+    <string name="welcome_to_activity_b">Welcome to activity B</string>
 </resources>
