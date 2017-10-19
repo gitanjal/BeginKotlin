@@ -8,6 +8,7 @@
     tools:context="com.droidmonk.beginkotlin.ActivityB">
 
     <TextView
+        android:id="@+id/tv_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/welcome_to_activity_b"
