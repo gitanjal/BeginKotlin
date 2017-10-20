@@ -15,7 +15,6 @@ class ActivityB : AppCompatActivity() {
         setContentView(R.layout.activity_b)
 
         val msg=intent.getStringExtra(KEY_MSG)
-
         tv_msg.text=msg
 
     }
