@@ -20,6 +20,12 @@
         android:layout_height="wrap_content" />
 
     <Button
+        android:id="@+id/btn_show_toast"
+        android:text="@string/show_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
         android:id="@+id/btn_load_activity_b"
         android:text="@string/load_activity_b"
         android:layout_width="wrap_content"
