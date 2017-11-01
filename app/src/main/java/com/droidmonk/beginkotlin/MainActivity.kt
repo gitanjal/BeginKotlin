@@ -1,10 +1,9 @@
 package com.droidmonk.beginkotlin
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.TextView
+import android.support.v7.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_main.view.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,12 +14,12 @@ class MainActivity : AppCompatActivity() {
 
 
         btn_change_text.setOnClickListener {
-            tv_hello.text="Yay! I am a Kotlin expert";
+            tv_hello.text = "Yay! I am a Kotlin expert"
         }
 
-        btn_load_activity_b.setOnClickListener{
-            val intent= Intent(this,ActivityB::class.java);
-            startActivity(intent);
+        btn_load_activity_b.setOnClickListener {
+            val intent = Intent(this, ActivityB::class.java)
+            startActivity(intent)
         }
     }
 }
